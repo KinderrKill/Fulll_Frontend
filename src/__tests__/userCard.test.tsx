@@ -1,6 +1,8 @@
 /* eslint-disable no-undef */
-import { GitHubUserItem } from '../utils/types';
+import React from 'react';
+
 import { fireEvent, render } from '@testing-library/react';
+import { GitHubUserItem } from '../utils/types';
 
 import EditModeContext from '../component/context/editModeContext';
 import UserCard from '..//component/userCard';
